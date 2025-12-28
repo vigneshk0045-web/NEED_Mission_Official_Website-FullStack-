@@ -12,7 +12,7 @@ The NEED Mission Official Website is a full-stack web application designed to re
 - Contact and engagement support  
 
 ## Tech Stack
-- **Frontend:** React.js, HTML5, CSS3, JavaScript  
+- **Frontend:** HTML5, CSS3, JavaScript  
 - **Backend:** Node.js, Express.js  
 - **Database:** MongoDB  
 - **Version Control:** Git & GitHub  
