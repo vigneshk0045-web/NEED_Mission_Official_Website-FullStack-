@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en" data-page="join">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>NEED Mission — National Energy & Environmental Development</title>
+<meta name="description" content="NEED is a nationwide movement to build an energy-conscious and environmentally responsible society through education, action, and community engagement." />
+<meta name="theme-color" content="#2f6e4f" />
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+<link rel="preload" href="styles.css" as="style" />
+<link rel="stylesheet" href="styles.css" />
+<script defer src="script.js"></script>
+
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header" role="banner">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="NEED Mission home">
+      <img src="assets/logo.svg" alt="" width="28" height="28" aria-hidden="true" />
+      <strong>NEED Mission</strong>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+    </button>
+    <nav class="site-nav" role="navigation" aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About NEED</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="join.html">Join Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="theme-toggle" aria-label="Toggle theme">
+      <span class="theme-icon" aria-hidden="true"></span>
+    </button>
+  </div>
+</header>
+
+<main id="main" class="wrap">
+  <header class="page-header">
+    <h1>Join Us</h1>
+    <p class="lead">Memberships, volunteering, and partnerships that move the mission forward.</p>
+  </header>
+
+  <section id="membership">
+    <h2>Membership</h2>
+    <div class="grid cards">
+      <article class="card">
+        <h3>Institutional Member</h3>
+        <ul>
+          <li>Access to toolkits and training</li>
+          <li>Impact tracking templates</li>
+          <li>Eligibility for fellowships</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h3>Individual Member</h3>
+        <ul>
+          <li>Workshops and webinars</li>
+          <li>Volunteer opportunities</li>
+          <li>Community forum access</li>
+        </ul>
+      </article>
+      <article class="card">
+        <h3>Corporate Ally</h3>
+        <ul>
+          <li>Program sponsorships</li>
+          <li>Mentorship & live projects</li>
+          <li>Recognition & reporting</li>
+        </ul>
+      </article>
+    </div>
+
+    <form class="form card" id="membership-form" novalidate>
+      <h3>Apply for Membership</h3>
+      <div class="form-grid">
+        <label>Full Name
+          <input type="text" name="name" required />
+        </label>
+        <label>Email
+          <input type="email" name="email" required />
+        </label>
+        <label>Type
+          <select name="type" required>
+            <option value="">Select</option>
+            <option>Institutional</option>
+            <option>Individual</option>
+            <option>Corporate</option>
+          </select>
+        </label>
+        <label>City
+          <input type="text" name="city" />
+        </label>
+      </div>
+      <label>Message
+        <textarea name="message" rows="4" placeholder="Tell us how you plan to engage."></textarea>
+      </label>
+      <div class="cta-row">
+        <button class="btn btn-primary" type="submit">Submit</button>
+        <p class="form-note"></p>
+      </div>
+    </form>
+  </section>
+
+  <section id="volunteering">
+    <h2>Volunteering</h2>
+    <ol class="steps">
+      <li>Sign up with your interests and skills</li>
+      <li>Attend a quick onboarding session</li>
+      <li>Join a local chapter or remote project</li>
+      <li>Track and celebrate your impact</li>
+    </ol>
+  </section>
+
+  <section id="partnerships">
+    <h2>Partnerships</h2>
+    <p>We co-create with schools, colleges, NGOs, and companies. Write to <a href="mailto:partners@need-mission.example">partners@need-mission.example</a>.</p>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="wrap grid">
+    <section>
+      <h3>About NEED</h3>
+      <p>NEED empowers students, professionals, institutions, and citizens to become stewards of a sustainable future.</p>
+    </section>
+    <section>
+      <h3>Get Involved</h3>
+      <ul class="plain">
+        <li><a href="join.html#membership">Membership</a></li>
+        <li><a href="join.html#volunteering">Volunteering</a></li>
+        <li><a href="join.html#partnerships">Partnerships</a></li>
+      </ul>
+    </section>
+    <section>
+      <h3>Resources</h3>
+      <ul class="plain">
+        <li><a href="resources.html#articles">Articles</a></li>
+        <li><a href="resources.html#videos">Videos</a></li>
+        <li><a href="resources.html#publications">Publications</a></li>
+      </ul>
+    </section>
+    <section>
+      <h3>Contact</h3>
+      <p><a href="mailto:hello@need-mission.example">hello@need-mission.example</a></p>
+      <p>© <span id="year"></span> NEED Mission. All rights reserved.</p>
+    </section>
+  </div>
+</footer>
+
+</body>
+</html>

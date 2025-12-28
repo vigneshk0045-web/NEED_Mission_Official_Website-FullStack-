@@ -1,0 +1,28 @@
+// Use VS Code "REST Client" extension or Thunder Client to run these requests.
+// Start the server first: npm run dev
+
+### Health (site served by Express)
+GET http://localhost:4000/
+
+### Create membership
+POST http://localhost:4000/api/memberships
+Content-Type: application/json
+
+{
+  "name": "Test User",
+  "email": "test@example.com",
+  "type": "Individual",
+  "city": "Chennai",
+  "message": "Excited to join"
+}
+
+### Create contact message
+POST http://localhost:4000/api/contact
+Content-Type: application/json
+
+{
+  "name": "Another User",
+  "email": "another@example.com",
+  "subject": "Hello",
+  "message": "Checking connectivity"
+}
